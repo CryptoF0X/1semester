@@ -17,7 +17,7 @@ void sut(int **a, int n)
         }
     }
 
-    for (int k=0;k<n;k++) //сортировка методом пузырька
+    for (int k=0;k<n;k++)
     {
         for (int i=k+1;i<n;i++)
         {
